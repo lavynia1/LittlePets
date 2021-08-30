@@ -1,0 +1,131 @@
+a,
+a:focus,
+a:hover {
+  color: rgb(35, 236, 236);
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: rgb(22, 22, 22);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(155, 189, 216, 0.925);
+  border: .05rem solid rgba(137, 177, 209, 0.925);
+}
+
+html,
+body {
+  height: 100%;
+  
+}
+
+body{
+  background-image: url("images/melhor-brinquedo-para-cachorro-hiperativo-2-.png");
+  background-size: 100% 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgba(155, 189, 216, 0.925);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  z-index:0 ;
+}
+body::after{
+    
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: rgb(201, 201, 201);
+  border-bottom-color: rgb(214, 214, 214);
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.buttonHover{
+  width: 170px;
+}
+.buttonHover:hover{
+  background-color: white;
+  color: rgb(145, 0, 31);
+}
+.modal-title{
+  color: rgb(7, 7, 7);
+ margin-left: auto;
+  
+  
+}
+.modal-footer{
+  align-content: space-between;
+}
+
+.botoesSignUp{
+  display: flex;
+}
+.buttonSignUp{
+  width: 100px;
+  display: inline-block;
+}
+.classeMude{
+  align-content: center;
+  width:60%;
+  height: auto;
+}
